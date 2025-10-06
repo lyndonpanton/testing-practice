@@ -1,15 +1,15 @@
 const calculator = {
     add: function(a, b) {
-        return 0;
+        return a + b;
     },
     subtract: function(a, b) {
-        return 0;
+        return a - b;
     },
     multiply: function(a, b) {
-        return 0;
+        return a * b;
     },
     divide: function(a, b) {
-        return 0;
+        return a / b;
     }
 };
 

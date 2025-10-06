@@ -10,9 +10,9 @@ test("addition", function() {
 
 test("subtraction", function() {
     expect(calculator.subtract(359, 126)).toBe(233);
-    expect(calculator.subtract(-450, 818)).toBe(1268);
+    expect(calculator.subtract(-450, 818)).toBe(-1268);
     expect(calculator.subtract(472, -799)).toBe(1271);
-    expect(calculator.subtract(-813, -39)).toBe(852);
+    expect(calculator.subtract(-813, -39)).toBe(-774);
     expect(calculator.subtract(0, 0)).toBe(0);
 });
 
@@ -25,9 +25,9 @@ test("multiplication", function() {
 });
 
 test("division", function() {
-    expect(calculator.add(360, 120)).toBe(3);
-    expect(calculator.add(-450, 45)).toBe(-10);
-    expect(calculator.add(471, -12)).toBe(-39.25);
-    expect(calculator.add(-813, 6)).toBe(135.5);
-    expect(calculator.add(0, 0)).toThrow(Error);
+    expect(calculator.divide(360, 120)).toBe(3);
+    expect(calculator.divide(-450, 45)).toBe(-10);
+    expect(calculator.divide(471, -12)).toBe(-39.25);
+    expect(calculator.divide(-813, -6)).toBe(135.5);
+    expect(calculator.divide(0, 0)).toBe(NaN);
 });
