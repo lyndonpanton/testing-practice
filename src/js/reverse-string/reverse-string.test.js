@@ -10,12 +10,12 @@ test("ThIs iS A StRiNg. -> .gNiRtS A Si sIhT", function() {
 
 test("abcdefghijklmNOPQRSTUVWXYZ -> ZYXWUVTSRQPONmlkjihgfedcba", function() {
     expect(reverseString("abcdefghijklmNOPQRSTUVWXYZ"))
-            .toMatch("ZYXWUVTSRQPONmlkjihgfedcba");
+            .toMatch("ZYXWVUTSRQPONmlkjihgfedcba");
 });
 
 test("x = (-b +|- sqrt(b^2 - 4ac)) / 2a -> a2 / ))ca4 - 2^b(trqs -|+ b-( = x",
         function() {
-    expect(reverseString("x = (b^2 +|- sqrt(4ac) / c)"))
+    expect(reverseString("x = (-b +|- sqrt(b^2 - 4ac)) / 2a"))
         .toMatch("a2 / ))ca4 - 2^b(trqs -|+ b-( = x");
 });
 

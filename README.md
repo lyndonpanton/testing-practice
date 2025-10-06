@@ -36,6 +36,7 @@ A set of modules that are tested on using the Jest testing framework.
 
 #### Development Tools
 
+- Firefox
 - Git
 - Git bash
 - Visual studio code
