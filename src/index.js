@@ -1,6 +1,6 @@
-// console.log("Webpack has configured successfully");
+console.log("Webpack has configured successfully");
 
-// const crowImage = require("./asset/img/crow.jpg");
+const crowImage = require("./asset/img/crow.jpg");
 
 import "./css/styles.css"
 
