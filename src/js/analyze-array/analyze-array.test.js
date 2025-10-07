@@ -11,7 +11,9 @@ test(
     expect(analysis.min).toBe(-95);
 });
 
-test("Testing analysis on array: [-59, 70, -36, -54, -10, 95, 67, 34, 10, -17, -4, 11, -46, -51]", function() {
+test(
+        "Testing analysis on array: [-59, 70, -36, -54, -10, 95, 67, 34, 10, -17, -4, 11, -46, -51]",
+        function() {
     let analysis = analyzeArray([-59, 70, -36, -54, -10, 95, 67, 34, 10, -17, -4, 11, -46, -51]);
 
     expect(analysis.average).toBe(0.714286);
@@ -20,7 +22,9 @@ test("Testing analysis on array: [-59, 70, -36, -54, -10, 95, 67, 34, 10, -17, -
     expect(analysis.min).toBe(-59);
 });
 
-test("Testing analysis on array: [24, -11, 91, 21, 7, -11, 93]", function() {
+test(
+        "Testing analysis on array: [24, -11, 91, 21, 7, -11, 93]",
+        function() {
     let analysis = analyzeArray([24, -11, 91, 21, 7, -11, 93]);
 
     expect(analysis.average).toBe(30.571429);
@@ -29,7 +33,9 @@ test("Testing analysis on array: [24, -11, 91, 21, 7, -11, 93]", function() {
     expect(analysis.min).toBe(-11);
 });
 
-test("Testing analysis on array: [66, 24, -90, -28, 78, -25, -50, 100, 30, 54, 69]", function() {
+test(
+        "Testing analysis on array: [66, 24, -90, -28, 78, -25, -50, 100, 30, 54, 69]",
+        function() {
     let analysis = analyzeArray([66, 24, -90, -28, 78, -25, -50, 100, 30, 54, 69]);
 
     expect(analysis.average).toBe(20.727273);
@@ -38,7 +44,9 @@ test("Testing analysis on array: [66, 24, -90, -28, 78, -25, -50, 100, 30, 54, 6
     expect(analysis.min).toBe(-90);
 });
 
-test("Testing analysis on array: [-89, -80, -71, -70, 53, -13, 85, 61, 77, 57, 98, 51, -78, -26, -22]", function() {
+test(
+        "Testing analysis on array: [-89, -80, -71, -70, 53, -13, 85, 61, 77, 57, 98, 51, -78, -26, -22]",
+        function() {
     let analysis = analyzeArray([-89, -80, -71, -70, 53, -13, 85, 61, 77, 57, 98, 51, -78, -26, -22]);
 
     expect(analysis.average).toBe(2.2);
